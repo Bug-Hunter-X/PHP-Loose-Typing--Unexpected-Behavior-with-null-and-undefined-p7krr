@@ -1,0 +1,3 @@
+This example demonstrates a common issue in PHP related to its loose typing system.  The `foo` function attempts to handle a `null` value gracefully, but the `bar` function, when called with `undefined`, doesn't produce the same behavior leading to a `NaN` result.
+
+The solution shows how to explicitly check for both `null` and `undefined` to produce a consistent result. This emphasizes the importance of clear type handling in PHP when working with possibly undefined or null values, such as data received from external sources.
